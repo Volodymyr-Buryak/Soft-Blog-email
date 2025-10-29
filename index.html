@@ -1,200 +1,378 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="utf-8">
-    <meta name="x-apple-disable-message-reformatting">
-    <title>Soft Blog — розсилка</title>
-  </head>
-  <body style="margin:0; padding:0; background:#f5f7fa;">
-    <!-- Прехедер -->
-    <div style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden;">
-      Останні статті Soft Blog: C++, Java, Go, JavaScript.
-    </div>
 
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f5f7fa;">
-      <tr>
-        <td align="center">
-          <!-- Контейнер 600px -->
-          <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; background:#ffffff; font-family:Arial, Helvetica, sans-serif; color:#333;">
-            <!-- Шапка -->
-            <tr>
-              <td align="center" bgcolor="#4a90e2" style="padding:20px;">
-                <a href="https://your-domain.example/" target="_blank" style="text-decoration:none;">
-                  <span style="display:block; font-weight:bold; font-size:24px; line-height:1; color:#ffffff;">Soft Blog</span>
-                </a>
-              </td>
-            </tr>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Volodymyr_Buryak">
+    <title>Soft Blog</title>
+</head>
 
-            <!-- Меню -->
-            <tr>
-              <td align="center" style="padding:12px 24px;">
-                <a href="https://your-domain.example/src/pages/page1.html" target="_blank" style="color:#4a90e2; text-decoration:none;">Сторінка 1</a>
-                &nbsp;•&nbsp;
-                <a href="https://your-domain.example/src/pages/page2.html" target="_blank" style="color:#4a90e2; text-decoration:none;">Сторінка 2</a>
-                &nbsp;•&nbsp;
-                <a href="https://your-domain.example/src/pages/page3.html" target="_blank" style="color:#4a90e2; text-decoration:none;">Сторінка 3</a>
-                &nbsp;•&nbsp;
-                <a href="https://your-domain.example/src/pages/page4.html" target="_blank" style="color:#4a90e2; text-decoration:none;">Сторінка 4</a>
-                &nbsp;•&nbsp;
-                <a href="https://your-domain.example/" target="_blank" style="color:#4a90e2; text-decoration:none;">Головна</a>
-              </td>
-            </tr>
+<body style="margin:0; padding:0; background-color:#f5f7fa; font-family:Arial, Helvetica, sans-serif;">
+    <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"
+        style="background-color:#f5f7fa;">
+        <tr>
+            <td align="center" style="padding: 0px 15px;">
+                <table role="presentation" width="750" border="0" cellspacing="0" cellpadding="0"
+                    style="background-color:#f5f7fa; max-width:750px; border-spacing: 10px;">
+                    <!-- Header -->
+                    <tr>
+                        <td>
+                            <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"
+                                style="background-color:#4a90e2; border-radius:0 0 18px 18px;">
+                                <tr>
+                                    <td style="padding:20px 30px;">
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0">
+                                            <tr>
+                                                <td width="150" style="text-align:left; vertical-align:middle;">
+                                                    <h1
+                                                        style="margin:0; font-size:24px; font-weight:bold; color:#f5f7fa; font-family:Arial, Helvetica, sans-serif;">
+                                                        Soft Blog</h1>
+                                                </td>
+                                                <td style="text-align:right; vertical-align:middle;">
+                                                    <table role="presentation" border="0" cellspacing="0"
+                                                        cellpadding="0" align="right">
+                                                        <tr>
+                                                            <td style="padding:0 8px;"><a
+                                                                    href="https://yourwebsite.com/page1.html"
+                                                                    style="color:#f5f7fa; text-decoration: underline; font-size:15px; font-family:Arial, Helvetica, sans-serif; white-space:nowrap;">Сторінка
+                                                                    1</a></td>
+                                                            <td style="padding:0 8px;"><a
+                                                                    href="https://yourwebsite.com/page2.html"
+                                                                    style="color:#f5f7fa; text-decoration:underline; font-size:15px; font-family:Arial, Helvetica, sans-serif; white-space:nowrap;">Сторінка
+                                                                    2</a></td>
+                                                            <td style="padding:0 8px;"><a
+                                                                    href="https://yourwebsite.com/page3.html"
+                                                                    style="color:#f5f7fa; text-decoration:underline; font-size:15px; font-family:Arial, Helvetica, sans-serif; white-space:nowrap;">Сторінка
+                                                                    3</a></td>
+                                                            <td style="padding:0 8px;"><a
+                                                                    href="https://yourwebsite.com/page4.html"
+                                                                    style="color:#f5f7fa; text-decoration:underline; font-size:15px; font-family:Arial, Helvetica, sans-serif; white-space:nowrap;">Сторінка
+                                                                    4</a></td>
+                                                            <td style="padding:0 8px;"><a href="https://yourwebsite.com"
+                                                                    style="color:#f5f7fa; text-decoration:underline; font-size:15px; font-family:Arial, Helvetica, sans-serif; white-space:nowrap;">Головна</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Main Content -->
+                    <tr>
+                        <td>
+                            <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"
+                                style="border-spacing: 10px;">
+                                <tr>
+                                    <!-- categories -->
+                                    <td width="200" valign="top" style="background-color:#ffffff; border-radius:12px;">
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0">
+                                            <tr>
+                                                <td width="200" valign="top">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="15">
+                                                        <tr>
+                                                            <td>
+                                                                <h3
+                                                                    style="margin: 0 0 10px 0; font-size: 18px; font-weight: bold; color: #ff6b6b; font-family: Arial, Helvetica, sans-serif;">
+                                                                    Категорії</h3>
+                                                                <table border="0" cellspacing="0" cellpadding="3">
+                                                                    <tr>
+                                                                        <td
+                                                                            style="font-size: 15px; color: #5e5e5e; font-family: Arial, Helvetica, sans-serif;">
+                                                                            • <a href="https://www.pravda.com.ua/"
+                                                                                style="color: #5e5e5e; text-decoration: underline;">Новини</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td
+                                                                            style="font-size: 15px; color: #5e5e5e; font-family: Arial, Helvetica, sans-serif;">
+                                                                            • <a href="https://booking.uz.gov.ua/en"
+                                                                                style="color: #5e5e5e; text-decoration: underline;">Подорожі</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td
+                                                                            style="font-size: 15px; color: #5e5e5e; font-family: Arial, Helvetica, sans-serif;">
+                                                                            • <a href="https://www.nasa.gov/"
+                                                                                style="color: #5e5e5e; text-decoration: underline;">Технології</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td
+                                                                            style="font-size: 15px; color: #5e5e5e; font-family: Arial, Helvetica, sans-serif;">
+                                                                            • <a href="https://yourwebsite.com"
+                                                                                style="color: #5e5e5e; text-decoration: nounderlinene;">Особисте</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
 
-            <!-- Категорії -->
-            <tr>
-              <td style="padding:0 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                  <tr>
-                    <td style="padding:12px 0; border-bottom:1px solid #eeeeee;">
-                      <span style="display:block; font-size:18px; font-weight:bold; color:#ff6b6b;">Категорії</span>
-                      <div style="margin-top:6px; font-size:14px;">
-                        <a href="https://www.pravda.com.ua/" target="_blank" style="color:#4a90e2; text-decoration:none; margin-right:12px;">Новини</a>
-                        <a href="https://booking.uz.gov.ua/en" target="_blank" style="color:#4a90e2; text-decoration:none; margin-right:12px;">Подорожі</a>
-                        <a href="https://www.nasa.gov/" target="_blank" style="color:#4a90e2; text-decoration:none; margin-right:12px;">Технології</a>
-                        <a href="https://your-domain.example/personal" target="_blank" style="color:#4a90e2; text-decoration:none;">Особисте</a>
-                      </div>
-                    </td>
-                  </tr>
+                                    <!-- Центральна колонка - Статті -->
+                                    <td valign="top">
+                                        <!-- Заголовок секції -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="10"
+                                            style="background-color:#4a90e2; border-radius:12px 12px 0 0;">
+                                            <tr>
+                                                <td align="center">
+                                                    <h2
+                                                        style="margin:0; font-size:20px; font-weight:normal; color:#f5f7fa; font-family:Arial, Helvetica, sans-serif;">
+                                                        Статті</h2>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Відступ -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0">
+                                            <tr>
+                                                <td style="height:15px;"></td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- C++ -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0" style="background-color:#ffffff; border-radius:12px;">
+                                            <tr>
+                                                <td style="padding:15px; border-bottom:1px solid #eeeeee;">
+                                                    <h3
+                                                        style="margin:0; font-size:18px; color:#4a90e2; font-family:Arial, Helvetica, sans-serif;">
+                                                        Мова програмування C++</h3>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding:15px;">
+                                                    <table role="presentation" width="100%" border="0" cellspacing="0"
+                                                        cellpadding="0">
+                                                        <tr>
+                                                            <td align="center" style="padding-bottom:15px;">
+                                                                <a href="https://yourwebsite.com"><img
+                                                                        src="https://github.com/Volodymyr-Buryak/Soft-Blog-email/blob/main/img/logo_c.png?raw=true"
+                                                                        alt="C++" width="100" height="100"
+                                                                        style="border-radius:8px; display:block; border:0;"></a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-size:15px; color:#5e5e5e; line-height:1.5; font-family:Arial, Helvetica, sans-serif;">
+                                                                C++ — це потужна об'єктно-орієнтована мова
+                                                                програмування, яка дозволяє створювати високопродуктивне
+                                                                програмне забезпечення. Вона активно використовується
+                                                                для розробки ігор, системного ПЗ, драйверів та складних
+                                                                інженерних додатків.</td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Відступ -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0">
+                                            <tr>
+                                                <td style="height:15px;"></td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Java -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0" style="background-color:#ffffff; border-radius:12px;">
+                                            <tr>
+                                                <td style="padding:15px; border-bottom:1px solid #eeeeee;">
+                                                    <h3
+                                                        style="margin:0; font-size:18px; color:#4a90e2; font-family:Arial, Helvetica, sans-serif;">
+                                                        Мова програмування Java</h3>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding:15px;">
+                                                    <table role="presentation" width="100%" border="0" cellspacing="0"
+                                                        cellpadding="0">
+                                                        <tr>
+                                                            <td align="center" style="padding-bottom:15px;">
+                                                                <a href="https://yourwebsite.com"><img
+                                                                        src="https://github.com/Volodymyr-Buryak/Soft-Blog-email/blob/main/img/logo_java.png?raw=true"
+                                                                        alt="Java" width="100" height="100"
+                                                                        style="border-radius:8px; display:block; border:0;"></a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-size:15px; color:#5e5e5e; line-height:1.5; font-family:Arial, Helvetica, sans-serif;">
+                                                                Java — це об'єктно-орієнтована мова програмування, яка
+                                                                працює за принципом «Write Once, Run Anywhere» (WORA).
+                                                                Вона широко використовується для створення веб-додатків,
+                                                                мобільних додатків (Android), корпоративного ПЗ та
+                                                                серверних рішень.</td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Відступ -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0">
+                                            <tr>
+                                                <td style="height:15px;"></td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Go -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0" style="background-color:#ffffff; border-radius:12px;">
+                                            <tr>
+                                                <td style="padding:15px; border-bottom:1px solid #eeeeee;">
+                                                    <h3
+                                                        style="margin:0; font-size:18px; color:#4a90e2; font-family:Arial, Helvetica, sans-serif;">
+                                                        Мова програмування Go</h3>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding:15px;">
+                                                    <table role="presentation" width="100%" border="0" cellspacing="0"
+                                                        cellpadding="0">
+                                                        <tr>
+                                                            <td align="center" style="padding-bottom:15px;">
+                                                                <a href="https://yourwebsite.com"><img
+                                                                        src="https://github.com/Volodymyr-Buryak/Soft-Blog-email/blob/main/img/logo_go.png?raw=true"
+                                                                        alt="Go" width="150" height="100"
+                                                                        style="border-radius:8px; display:block; border:0;"></a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-size:15px; color:#5e5e5e; line-height:1.5; font-family:Arial, Helvetica, sans-serif;">
+                                                                Go (або Golang) — це мова програмування від Google,
+                                                                відома своєю простотою, високою продуктивністю та
+                                                                підтримкою паралельного програмування. Вона часто
+                                                                використовується для створення серверних додатків,
+                                                                мережевих сервісів та інструментів для DevOps.</td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Відступ -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0">
+                                            <tr>
+                                                <td style="height:15px;"></td>
+                                            </tr>
+                                        </table>
+
+                                        <!--JavaScript -->
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0" style="background-color:#ffffff; border-radius:12px;">
+                                            <tr>
+                                                <td style="padding:15px; border-bottom:1px solid #eeeeee;">
+                                                    <h3
+                                                        style="margin:0; font-size:18px; color:#4a90e2; font-family:Arial, Helvetica, sans-serif;">
+                                                        JavaScript</h3>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding:15px;">
+                                                    <table role="presentation" width="100%" border="0" cellspacing="0"
+                                                        cellpadding="0">
+                                                        <tr>
+                                                            <td align="center" style="padding-bottom:15px;">
+                                                                <a href="https://yourwebsite.com"><img
+                                                                        src="https://github.com/Volodymyr-Buryak/Soft-Blog-email/blob/main/img/logo_js.png?raw=true"
+                                                                        alt="JavaScript" width="100" height="100"
+                                                                        style="border-radius:8px; display:block; border:0;"></a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-size:15px; color:#5e5e5e; line-height:1.5; font-family:Arial, Helvetica, sans-serif;">
+                                                                JavaScript — мова програмування для веб-розробки.
+                                                                Використовується для інтерактивних веб-сторінок,
+                                                                фронтенд та серверних додатків (Node.js).</td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <!-- partners -->
+                                    <td width="200" valign="top"
+                                        style="background-color: #ffffff; border-radius: 12px;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="15">
+                                            <tr>
+                                                <td>
+                                                    <h3
+                                                        style="margin: 0 0 10px 0; font-size: 18px; font-weight: bold; color: #ff6b6b; font-family: Arial, Helvetica, sans-serif;">
+                                                        Наші партнери</h3>
+                                                    <table border="0" cellspacing="0" cellpadding="3">
+                                                        <tr>
+                                                            <td
+                                                                style="font-size: 15px; color: #5e5e5e; font-family: Arial, Helvetica, sans-serif;">
+                                                                1. Ajax Systems</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-size: 15px; color: #5e5e5e; font-family: Arial, Helvetica, sans-serif;">
+                                                                2. GlobalLogic</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="font-size: 15px; color: #5e5e5e; font-family: Arial, Helvetica, sans-serif;">
+                                                                3. Sigma Software</td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Footer -->
+                    <tr>
+                        <td>
+                            <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"
+                                style="background-color:#4a90e2; border-radius:15px 15px 0 0;">
+                                <tr>
+                                    <td style="padding:12px 16px;">
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0">
+                                            <tr>
+                                                <td align="left"
+                                                    style="font-size:14px; color:#f5f7fa; font-family:Arial, Helvetica, sans-serif;">
+                                                    &copy; 2025 All rights reserved.</td>
+                                                <td align="right"
+                                                    style="font-size:16px; font-weight:bold; color:#f5f7fa; font-family:Arial, Helvetica, sans-serif;">
+                                                    Soft Blog</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
                 </table>
-              </td>
-            </tr>
-
-            <!-- Заголовок "Статті" -->
-            <tr>
-              <td align="center" bgcolor="#4a90e2" style="padding:10px 24px;">
-                <span style="display:block; color:#ffffff; font-weight:bold; font-size:20px;">Статті</span>
-              </td>
-            </tr>
-
-            <!-- Стаття: C++ -->
-            <tr>
-              <td style="padding:16px 24px 8px 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #eeeeee;">
-                  <tr>
-                    <td style="padding:12px;">
-                      <a href="https://your-domain.example/" target="_blank">
-                        <img src="https://your-domain.example/src/img/logo_c.png" alt="C++" width="560" style="display:block; width:560px; height:auto; border:0; outline:none; text-decoration:none;">
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding:0 12px 12px 12px;">
-                      <a href="https://your-domain.example/" target="_blank" style="text-decoration:none; color:#4a90e2;">
-                        <span style="font-size:18px; font-weight:bold;">Мова програмування C++</span>
-                      </a>
-                      <div style="margin-top:6px; font-size:16px; color:#5e5e5e; line-height:1.5;">
-                        C++ — потужна об’єктно-орієнтована мова для високопродуктивного ПЗ: ігри, системне ПЗ, драйвери, інженерні застосунки.
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-
-            <!-- Стаття: Java -->
-            <tr>
-              <td style="padding:8px 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #eeeeee;">
-                  <tr>
-                    <td style="padding:12px;">
-                      <a href="https://your-domain.example/" target="_blank">
-                        <img src="https://your-domain.example/src/img/logo_java.png" alt="Java" width="560" style="display:block; width:560px; height:auto; border:0;">
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding:0 12px 12px 12px;">
-                      <a href="https://your-domain.example/" target="_blank" style="text-decoration:none; color:#4a90e2;">
-                        <span style="font-size:18px; font-weight:bold;">Мова програмування Java</span>
-                      </a>
-                      <div style="margin-top:6px; font-size:16px; color:#5e5e5e; line-height:1.5;">
-                        Java — «Write Once, Run Anywhere»: веб-додатки, Android, корпоративні та серверні рішення.
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-
-            <!-- Стаття: Go -->
-            <tr>
-              <td style="padding:8px 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #eeeeee;">
-                  <tr>
-                    <td style="padding:12px;">
-                      <a href="https://your-domain.example/" target="_blank">
-                        <img src="https://your-domain.example/src/img/logo_go.png" alt="Go" width="560" style="display:block; width:560px; height:auto; border:0;">
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding:0 12px 12px 12px;">
-                      <a href="https://your-domain.example/" target="_blank" style="text-decoration:none; color:#4a90e2;">
-                        <span style="font-size:18px; font-weight:bold;">Мова програмування Go</span>
-                      </a>
-                      <div style="margin-top:6px; font-size:16px; color:#5e5e5e; line-height:1.5;">
-                        Go відома простотою, швидкістю і зручною паралельністю: сервери, мережеві сервіси, DevOps-інструменти.
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-
-            <!-- Стаття: JavaScript -->
-            <tr>
-              <td style="padding:8px 24px 16px 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #eeeeee;">
-                  <tr>
-                    <td style="padding:12px;">
-                      <a href="https://your-domain.example/" target="_blank">
-                        <img src="https://your-domain.example/src/img/logo_js.png" alt="JavaScript" width="560" style="display:block; width:560px; height:auto; border:0;">
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding:0 12px 12px 12px;">
-                      <a href="https://your-domain.example/" target="_blank" style="text-decoration:none; color:#4a90e2;">
-                        <span style="font-size:18px; font-weight:bold;">JavaScript</span>
-                      </a>
-                      <div style="margin-top:6px; font-size:16px; color:#5e5e5e; line-height:1.5;">
-                        JavaScript — мова для вебу: інтерактивні сторінки, фронтенд, а також сервер на Node.js.
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-
-            <!-- Партнери (опущено вниз) -->
-            <tr>
-              <td style="padding:8px 24px 20px 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #eeeeee;">
-                  <tr>
-                    <td style="padding:12px;">
-                      <span style="display:block; font-size:18px; font-weight:bold; color:#ff6b6b;">Наші партнери</span>
-                      <ol style="margin:8px 0 0 20px; padding:0; color:#5e5e5e; font-size:16px;">
-                        <li>Ajax Systems</li>
-                        <li>GlobalLogic</li>
-                        <li>Sigma Software</li>
-                      </ol>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-
-            <!-- Футер -->
-            <tr>
-              <td align="center" bgcolor="#4a90e2" style="padding:14px;">
-                <span style="display:block; color:#ffffff; font-size:14px;">© 2025 All rights reserved.</span>
-                <span style="display:block; color:#ffffff; font-size:16px; font-weight:bold;">Soft Blog</span>
-              </td>
-            </tr>
-          </table>
-          <!-- /Контейнер -->
-        </td>
-      </tr>
+            </td>
+        </tr>
     </table>
-  </body>
+
+</body>
+
 </html>
